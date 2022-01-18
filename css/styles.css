@@ -573,6 +573,52 @@ img {
   margin-right: 70px;
 }
 
+.footer-form {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 93px;
+}
+.footer-text-form {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: var(--other-color);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-input {
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+  outline: none;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.footer-form-btn {
+  width: 200px;
+  height: 50px;
+  background-color: var(--accent-color);
+  color: var(--other-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  border-radius: 4px;
+  border-color: var(--accent-color);
+}
+
+.footer-form-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
 /* Стилизация фильтров */
 
 .filters-btn:hover,
