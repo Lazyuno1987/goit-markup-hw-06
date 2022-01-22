@@ -613,6 +613,14 @@ img {
   line-height: calc(30 / 16);
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.15);
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color: #188ce8;
 }
 
 .footer-form-icon {
@@ -792,10 +800,10 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover,
+/* .modal-close:hover,
 .modal-close:focus {
   border: 1px solid var(--accent-color);
-}
+} */
 
 .modal-svg {
   width: 18px;
@@ -806,8 +814,8 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover .modal-svg,
-.modal-close:focus .modal-svg {
+.modal-svg:hover,
+.modal-svg:focus {
   fill: var(--accent-color);
 }
 
@@ -864,7 +872,7 @@ img {
 .modal-batton {
   width: 200px;
   height: 50px;
-  background-color: #188ce8;
+  background-color: var(--accent-color);
   color: var(--other-color);
   font-weight: 700;
   font-size: 16px;
@@ -873,6 +881,14 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.15);
   letter-spacing: 6%;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.modal-batton:hover,
+.modal-batton:focus {
+  background-color: #188ce8;
 }
 
 .modal-link {
